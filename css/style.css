@@ -41,8 +41,10 @@ img {
 
 /* 헤더 - 로고, 상단메뉴 ===============================================================================================================================================*/
 .header {
-   background: #26649e;
-   overflow: hidden
+    background-image: url("https://img.freepik.com/free-photo/beautiful-blue-sky-and-beautiful-cirrus-cloud-on-sunny-day-can-use-banner-background-wallpaper_234527-25.jpg?size=626&ext=jpg&ga=GA1.2.1652699356.1612569600");
+    background-size: cover;
+   overflow: hidden;
+   padding: 10px;
 }
 
 
@@ -72,7 +74,7 @@ img {
 
 .header .logo h1 a {
    display: block;
-   padding: 5px;
+   margin-bottom: 7px;
 }
 
 .header .logo h1 img {
@@ -91,7 +93,7 @@ img {
 
 .header .top-btn ul {
    overflow: hidden;
-   margin-top: 10px;
+   margin-top: 7px;
 }
 
 /*float속성이 가운데 정렬 없기때문에 overflow를 넣어준다.*/
@@ -106,7 +108,9 @@ img {
    padding: 5px;
 }
 
-.menu {}
+.menu {background-color: white;
+        margin-bottom: 10px;
+}
 
 .menu>div {
    max-width: 1200px;
@@ -115,30 +119,38 @@ img {
 
 .menu>div>ul {
    text-align: center;
+   padding: 5px;
 }
 
 /*ul가운데 정렬*/
 .menu>div>ul>li {
    display: inline-block;
+   
+
 }
 
 /*요소들을 가운데 정렬*/
 
 .menu>div>ul>li>a {
    display: block;
-   padding: 10px;
-   font-size: 17px;
-   margin: 10px 40px;
+   padding: 16px;
+   font-size: 18px;
+   margin: 10px 50px;
+   font-family: Arial, Helvetica, sans-serif;
 }
 
 /*간격지정*/
 .menu>div>ul>li>a:hover {
-   color: #25a5ff
+   color: #2289d3;
+   background-color: rgba(34, 137, 211, 0.2);
+   border-radius: 20px;
 }
 /* 상단 배너 ===========================================================================================================================================================*/
 .banner .swiper-container {
    max-width: 1200px;
+   max-height: 700px;
    margin: 0 auto;
+   overflow: hidden;
 }
 /* 메인 게시물 ===========================================================================================================================================================*/
 
@@ -176,7 +188,7 @@ img {
    overflow: hidden;
 }
 .tab-con ul li:hover{
-   border-bottom: 1px dashed #e1e1e1;
+   border-bottom: 1px dashed #adadad;
 }
 
 .tab-con ul li a {
@@ -193,6 +205,7 @@ img {
    border-radius: 50%;
    vertical-align: middle;
    margin-right: 5px;
+   margin-bottom: 5px;
 
 }
 .tab-con ul li span {
