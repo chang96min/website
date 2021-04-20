@@ -22,6 +22,12 @@
          <div class="logo">
             <h1><a href="../index.html"><img src="../img/logo_w.png"></a></h1>
          </div>
+         <div class="top-btn">
+            <ul>
+               <li><a href="../member/login.html">로그인</a></li>
+               <li><a href="#">회원가입</a></li>
+            </ul>
+         </div>
       </div>
    </div>
 
@@ -43,7 +49,7 @@
       
    </div>
    <div class="login-btn">
-      <a href="./join.html">회원가입</a>
+      <a href="./member/join.html">회원가입</a>
    </div>
  </div>
 
@@ -57,7 +63,7 @@
 			<h1>UIHOON</h1>
 		</div>
 		<div>
-			<p>대구 동구 동내로 70 | 대표자 : 이창민 | 이메일 : ckdals8785@naver.com | 연락처 : 010-1234-5678</p>
+			<p>대구 동구 동내로 70 | 대표자 : 정의훈 | 이메일 : ehdgk9166@naver.com | 연락처 : 010-7225-9166</p>
 		</div>
 		<div class="icon-container">
 			<span>copyright(c) UIHOON. All right reserved.</span>
